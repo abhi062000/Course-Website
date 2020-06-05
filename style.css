@@ -1,0 +1,255 @@
+body{
+    font-family: 'DM Mono', monospace;
+    position: relative;
+}
+.bgvideo{
+    position: fixed;
+    min-height: 100%;
+    min-width: 100%;
+    z-index: -100;
+}
+
+/* navbar styling */
+.navbar-custom {
+    font-size: 1.2rem;
+  background-color: #369fd4;
+  border-color: #298dc0;
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#60b3dd), to(#369fd4));
+  background-image: -webkit-linear-gradient(top, #60b3dd, 0%, #369fd4, 100%);
+  background-image: -moz-linear-gradient(top, #60b3dd 0%, #369fd4 100%);
+  background-image: linear-gradient(to bottom, #60b3dd 0%, #369fd4 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff60b3dd', endColorstr='#ff369fd4', GradientType=0);
+}
+
+.navbar-custom .navbar-brand {
+  color: #ffffff;
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus {
+  color: #ffffff;
+  background-color: transparent;
+}
+.navbar-custom .navbar-text {
+  color: #c0c0c0;
+}
+.navbar-custom .navbar-nav > li:last-child > a {
+  border-right: 1px solid #298dc0;
+}
+.navbar-custom .navbar-nav > li > a {
+color: #c0c0c0;
+  border-left: 1px solid #298dc0;
+}
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus {
+  color: #ffffff;
+  background-color: transparent;
+}
+.navbar-custom .navbar-nav > .active > a,
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: #298dc0;
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#298dc0), to(#45a6d7));
+  background-image: -webkit-linear-gradient(top, #298dc0, 0%, #45a6d7, 100%);
+  background-image: -moz-linear-gradient(top, #298dc0 0%, #45a6d7 100%);
+  background-image: linear-gradient(to bottom, #298dc0 0%, #45a6d7 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff298dc0', endColorstr='#ff45a6d7', GradientType=0);
+}
+.navbar-custom .navbar-nav > .disabled > a,
+.navbar-custom .navbar-nav > .disabled > a:hover,
+.navbar-custom .navbar-nav > .disabled > a:focus {
+  color: #cccccc;
+  background-color: transparent;
+}
+.navbar-custom .navbar-toggle {
+  border-color: #dddddd;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: #dddddd;
+}
+.navbar-custom .navbar-toggle .icon-bar {
+  background-color: #cccccc;
+}
+.navbar-custom .navbar-collapse,
+.navbar-custom .navbar-form {
+  border-color: #298cbe;
+}
+.navbar-custom .navbar-nav > .dropdown > a:hover .caret,
+.navbar-custom .navbar-nav > .dropdown > a:focus .caret {
+  border-top-color: #ffffff;
+  border-bottom-color: #ffffff;
+}
+.navbar-custom .navbar-nav > .open > a,
+.navbar-custom .navbar-nav > .open > a:hover,
+.navbar-custom .navbar-nav > .open > a:focus {
+  background-color: #298dc0;
+  color: #ffffff;
+}
+.navbar-custom .navbar-nav > .open > a .caret,
+.navbar-custom .navbar-nav > .open > a:hover .caret,
+.navbar-custom .navbar-nav > .open > a:focus .caret {
+  border-top-color: #ffffff;
+  border-bottom-color: #ffffff;
+}
+.navbar-custom .navbar-nav > .dropdown > a .caret {
+  border-top-color: #c0c0c0;
+  border-bottom-color: #c0c0c0;
+}
+@media (max-width: 767) {
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a {
+    color: #c0c0c0;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffffff;
+    background-color: transparent;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffffff;
+    background-color: #298dc0;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #cccccc;
+    background-color: transparent;
+  }
+}
+.navbar-custom .navbar-link {
+  color: #c0c0c0;
+}
+.navbar-custom .navbar-link:hover {
+  color: #ffffff;
+}   
+.nav-item .active{
+  background-color: rgb(139, 204, 241);
+}
+
+/* home */
+.jumbotron{
+    background: transparent;
+    text-align: center;
+    padding: 10%;
+    color: #fff;
+}
+.jumbotron h1{
+    font-size: 3.5rem;
+}
+.jumbotron h2{
+    margin: 3rem 0rem;
+}
+.jumbotron p a{
+    /* border: 1px solid blue; */
+    background-color: rgb(30, 160, 224);
+    color: #fff;
+    padding: 0.8rem;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 2rem;
+    font-weight: 600;
+}
+.jumbotron p a:hover{
+    background-color: rgba(30, 160, 224,0.7);
+}
+
+
+/* about */
+.container{
+  max-width: 1000px;
+}
+#about{
+  text-align: center;
+  color: white;
+  padding-top: 5rem;
+}
+#aboutimg{
+  width: 50%;
+  height: 40%;
+  margin-bottom: 0.5rem;
+}
+#about .col-md-4{
+  margin-bottom: 1rem;
+}
+#about h2{
+  font-weight: 800;
+}
+#about p{
+  font-size: 1.2rem;
+}
+
+/* carousel */
+#promises{
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+  padding-top:2rem;
+}
+#carouselId{
+  /* margin: 0 auto; */
+  text-align: center;
+}
+.carousel-caption{
+  position: relative;
+  left: auto;
+  right: auto;
+  height: 100px;
+}
+.carousel-inner img{
+  width: 60%;
+  height: 50%;
+}
+
+/* footer */
+.footer{
+  margin-top: 5rem;
+  padding: 1rem 0;
+  color: #fff;
+  background-color: rgba(41, 140, 190,0.5);
+}
+
+/* media queries */
+@media (max-width:400px){
+  #promises{
+  margin-bottom: 5rem;
+  margin-top: 1rem;
+  padding-top:2rem;
+}
+.navbar-brand{
+  font-size: 1.2rem;
+}
+}
+/* changes according to device not to screen width */
+@media (max-device-width:768px){
+  body{
+    background: url('https://images.pexels.com/photos/1686942/pexels-photo-1686942.jpeg?auto=compress&cs=tinysrgb&h=650&w=940') center center fixed;
+    background-size: cover;
+  }
+  .bgvideo{
+    display: none;
+  }
+  #promises{
+  margin-bottom: 5rem;
+  margin-top: 1rem;
+  padding-top:1rem;
+}
+#aboutimg{
+  width: 40%;
+  height: 30%;
+  margin-bottom: 0.5rem;
+}
+.jumbotron h1{
+  margin-top: 1rem;
+    font-size: 2.5rem;
+}
+.jumbotron h2{
+  font-size: 1.5rem;
+    margin: 2rem 0rem;
+}
+.navbar-brand{
+  font-size: 1rem;
+}
+}
